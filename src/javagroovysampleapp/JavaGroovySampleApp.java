@@ -1,10 +1,5 @@
 package javagroovysampleapp;
 
-import java.util.ArrayList;
-import java.util.List;
-import javaCode.Dog;
-import javaCode.polymorphism.*;
-
 /**
  *
  * @author rmoguel
@@ -16,7 +11,25 @@ public class JavaGroovySampleApp {
         Dog yui = new Dog();
         yui.setName("Yui");
         System.out.println(yui.bark());
+        
     } 
+ 
+}
+
+class Dog {
+    private String name;
+
+    public String bark(){
+        return this.name + " is barking! woof!";
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
     
     
