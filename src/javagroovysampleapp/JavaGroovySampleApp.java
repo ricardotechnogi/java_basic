@@ -1,5 +1,6 @@
 package javagroovysampleapp;
 
+import groovyCode.Dog;
 /**
  *
  * @author rmoguel
@@ -16,21 +17,7 @@ public class JavaGroovySampleApp {
  
 }
 
-class Dog {
-    private String name;
 
-    public String bark(){
-        return this.name + " is barking! woof!";
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-}
     
     
     

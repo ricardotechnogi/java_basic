@@ -43,6 +43,7 @@ public class Bicycle {
         speed += increment;
     }
     
+    
     public void printDescription(){
         System.out.println("\nBike is " + "in gear " + this.gear
             + " with a cadence of " + this.cadence +
